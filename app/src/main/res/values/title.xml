@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tanaman_obat">
+        <item>Daun Kelor</item>
+        <item>Daun Kelor2</item>
+        <item>Daun Kelor3</item>
+        <item>Daun Kelor4</item>
+    </string-array>
+    
+
+</resources>

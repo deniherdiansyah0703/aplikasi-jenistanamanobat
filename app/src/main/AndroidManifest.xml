@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.TanamanObat"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.UbahActivity"
+            android:parentActivityName=".Activity.UasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UasActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.TambahDataActivity"
+            android:parentActivityName=".Activity.UasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InputActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowhelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TObatDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ResepDetail"
+            android:exported="false" />
+        <activity
+            android:name=".PenyakitDetail"
+            android:exported="false" />
+        <activity
+            android:name=".PenyakitActivity"
+            android:exported="false"
+            android:label="Penyakit"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".ResepActivity"
+            android:exported="false"
+            android:label="Resep"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".TObatActivity"
+            android:exported="false"
+            android:label="Tanaman Obat"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:theme="@style/Theme.TanamanObat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TanamanObat.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.TanamanObat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

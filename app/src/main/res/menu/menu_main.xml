@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="List Penyakit"
+        android:id="@+id/listP"/>
+
+    <item
+        android:title="List Resep"
+        android:id="@+id/listR"/>
+    <item
+        android:id="@+id/listO"
+        android:title="List Obat"/>
+    <item
+        android:title="Peraturan"
+        android:id="@+id/setting"/>
+    <item
+        android:title="Keluar"
+        android:id="@+id/logout"/>
+</menu>

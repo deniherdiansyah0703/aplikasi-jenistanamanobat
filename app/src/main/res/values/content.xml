@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tanaman_obat_content">
+        <item>Lorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor amet Lorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor amet</item>
+        <item>Lorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor amet Lorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor amet</item>
+        <item>Lorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor amet Lorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor amet</item>
+        <item>Lorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor amet Lorem ipsup dolor ametLorem ipsup dolor ametLorem ipsup dolor amet</item>
+    </string-array>
+
+
+</resources>
